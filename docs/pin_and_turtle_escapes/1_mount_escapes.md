@@ -105,7 +105,7 @@ way.
    - The goal here is to prevent uke from being able to posture up.
 2. Grab their back with your right hand
    - Not sure why
-3. Roll opposite of the oiriginal direction into guard
+3. Roll opposite of the original direction into guard
 
 <div class="photoList">
   <figure >
@@ -171,7 +171,7 @@ There are two main types of elbow escape:
 
 ---
 
-### Ankle-based: [ADD PHOTOS]
+### The Ankle-based Method: [ADD PHOTOS]
 3. Setup position
    - Turn towards your left frame, staying up on foot on right side, and having your leg straight on 
       left side. It is *very* important to keep the left leg as flat to the mat as possible, any sort 
@@ -222,7 +222,7 @@ using the knee-based method.
 
 ----
 
-### Knee-based:
+### The Knee-based Method:
 3. Off-center their balance
    1. Force them to post on their hand and knee by bridging (1).
       - This wont be your full-commit bridge as you dont want to cross your feet over so that you can stay in a good 
