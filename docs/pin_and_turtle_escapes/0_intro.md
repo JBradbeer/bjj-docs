@@ -1,5 +1,10 @@
 <link rel="stylesheet" href="/bjj-docs/assets/styles.css" />
 
+---
+title: Introduction
+layout: default
+---
+
 # Intro
 
 ## What is a pin?
