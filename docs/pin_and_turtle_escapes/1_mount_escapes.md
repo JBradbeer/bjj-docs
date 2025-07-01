@@ -105,7 +105,7 @@ way.
    - The goal here is to prevent uke from being able to posture up.
 2. Grab their back with your right hand
    - Not sure why
-3. Roll opposite of the oiriginal direction into guard
+3. Roll opposite of the original direction into guard
 
 <div class="photoList">
   <figure >
@@ -141,11 +141,48 @@ direction. Trap their arm on rolling side with your elbow. Bridge and roll towar
 </div>
 
 #### Dealing With The Grapevine
-Oftentimes when uke has you in mount, they will grapevine to prevent you from being able to bridge. **It is not even
+Oftentimes when the opp. has you in mount, they will grapevine to prevent you from being able to bridge. **It is not 
+even
 worth attempting the bridge until you clear the grapevine.** Follow the steps [here](#dealing)
 
 #### Dealing With The Crossface
-- TODO: 24:00ish
+If the opp. has a heavy cross-face, you will struggle to be able to trap their arm and roll. Instead, we will use a 
+misdirectional bridge to setup up a bridging escape.
+
+**Misdirectional bridge left**
+1. Get inside position with your arm, and trap their foot with your foot (same way as always)
+2. Swim your hand to the over-hook and trap their arm with your elbow
+3. Bridge and roll.
+
+<div class="photoList">
+   <figure>
+      <img src="{{ site.pin_escapes_images }}/mount_bridging_escape_crossface_step_2.png">
+      <figcaption>Swim to overhook while trapping their arm and foot</figcaption>
+   </figure>
+   <figure>
+      <img src="{{ site.pin_escapes_images }}/mount_bridging_escape_crossface_step_3.png">
+      <figcaption>Use a misdirectional bridge away from the crossface</figcaption>
+   </figure>
+</div>
+
+Between their head and their hand, they will likely still be able base out to prevent it, however at the very
+least you will have relieved the crossface pressure.
+
+**True bridge right**
+1. As the first bridge fails, untrap their left foot and roll back the other direction
+2. As you hit neutral, force your head into the mat to trap their crossface arm into the ground preventing them 
+   from removing it
+
+<div class="photoList">
+   <figure>
+      <img src="{{ site.pin_escapes_images }}/mount_bridging_escape_crossface_step_4.png">
+      <figcaption>Untrap their left foot and trap their crossface arm with your head</figcaption>
+   </figure>
+   <figure>
+      <img src="{{ site.pin_escapes_images }}/mount_bridging_escape_crossface_step_5.png">
+      <figcaption>Finish the bridge in the other direction</figcaption>
+   </figure>
+</div>
 
 ---
 
@@ -156,9 +193,18 @@ escape from any pin position across all belt levels and size differences"
 
 There are two main types of elbow escape:
   - [Ankle-based](#ankle-based)
-    - generally better for static situations where the opp. has already mounted you.
-  - [Knee-based](#knee-based)
     - generally better for dynamic situations like when the opp. is actively mounting you from side control.
+    - generally better for when their feet are active 
+  - [Knee-based](#knee-based)
+    - generally better for static situations where the opp. has already mounted you.
+    - generally better for when their knees are active
+
+```mermaid
+graph TD
+  A[Start] --> B{Decision}
+  B -->|Yes| C[Go]
+  B -->|No| D[Stop]
+```
 
 ### The common setup:
 1. Break their posture
@@ -171,7 +217,7 @@ There are two main types of elbow escape:
 
 ---
 
-### Ankle-based: [ADD PHOTOS]
+### The Ankle-based Method: [ADD PHOTOS]
 3. Setup position
    - Turn towards your left frame, staying up on foot on right side, and having your leg straight on 
       left side. It is *very* important to keep the left leg as flat to the mat as possible, any sort 
@@ -222,7 +268,7 @@ using the knee-based method.
 
 ----
 
-### Knee-based:
+### The Knee-based Method:
 3. Off-center their balance
    1. Force them to post on their hand and knee by bridging (1).
       - This wont be your full-commit bridge as you dont want to cross your feet over so that you can stay in a good 
