@@ -22,3 +22,26 @@
     text-align: center;
     word-wrap: break-word;
 }
+
+.mermaid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobileOnly {
+    display: none;
+
+    @media (max-width: 768px) {
+        display: block;
+    }
+}
+
+.desktopOnly {
+    display: none;
+
+    @media (min-width: 769px) {
+        display: block;
+    }
+}
