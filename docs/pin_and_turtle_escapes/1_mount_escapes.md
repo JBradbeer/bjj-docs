@@ -1,24 +1,46 @@
 <link rel="stylesheet" href="/bjj-docs/assets/styles.css" />
 
+{% include mermaid.html %}
+
 # Mount Escapes
 1. [Bridging Escape](#bridging-escape)
 2. [Elbow Escape](#elbow-escape)
    - [Ankle-based](#ankle-based)
    - [Knee-based](#knee-based)
 
+
 ## Bridging Escape
+
 In high level BJJ this escape is rare, however, it is still worthwhile to learn as it works well at the lower 
 levels and can be used to set up other escapes.
 
 There are many variants of this technique based on how the opponent is gripping the Every bridging escape variant works 
 , but all variants work by blocking uke's ability to block in one direction and rolling them that direction into guard.
 
+<div class="mermaid">
+graph LR
+  A(Setup grips) --> C[Trap their foot]
+  C --> D[Bridge and roll]
+  D --> E{Success?}
+  E -->|Yes| F[You are in guard]
+  E -->|No| G([Respond])
+</div>
+
+<div class="mermaid mobileOnly">
+graph TD
+A(Setup grips) --> C[Trap their foot]
+C --> D[Bridge and roll]
+D --> E{Success?}
+E -->|Yes| F[You are in guard]
+E -->|No| G([Respond])
+</div>
+
 In the standard case where the opponent is postured up with hands on your lapel (or similar).
-1. 4-finger pocket grip with your far arm and pull down until you see (and feel) then tension line on the front of 
+1. 4-finger pocket grip with your far arm and pull down until you see (and feel) then tension line on the front of
    the sleeve.
-2. With your near arm reach for the back of the sleeve (by tricep) and grab the luff in their sleeve. Do not just 
+2. With your near arm reach for the back of the sleeve (by tricep) and grab the luff in their sleeve. Do not just
    grab anywhere it is important that you grab the luff to ensure control.
-3. Take your foot on the same side as the arm you trapped and trap their foot.  
+3. Take your foot on the same side as the arm you trapped and trap their foot.
 4. Bridge and roll towards their trapped side (you likely wont get this and will need to [deal with a response](#dealing-with-responses)).
 
 <div class="photoList">
@@ -145,9 +167,39 @@ Oftentimes when the opp. has you in mount, they will grapevine to prevent you fr
 even
 worth attempting the bridge until you clear the grapevine.** Follow the steps [here](#dealing)
 
+<script>
+  window.showImageA = function () {
+    console.log('You clicked node A!');
+  }
+</script>
+
+<div class="mermaid">
+graph LR
+  A[Bridge Setup] --> B[Bridge Left]
+  click A call showImageA() "Tooltip A"
+</div>
+
 #### Dealing With The Crossface
 If the opp. has a heavy cross-face, you will struggle to be able to trap their arm and roll. Instead, we will use a 
 misdirectional bridge to setup up a bridging escape.
+
+<div class="mermaid">
+graph LR
+  CrossfaceStart["Opponent has a heavy crossface"]
+
+CrossfaceStart --> MisdirectBridge["Bridge away from crossface (left)"]
+MisdirectBridge --> Overhook["Swim to overhook & trap their arm with elbow"]
+Overhook --> TrapFoot["Trap their foot with your foot"]
+TrapFoot --> BridgeLeft["Bridge to the left"]
+
+BridgeLeft --> FailBridge["Bridge fails (they base out)"]
+FailBridge --> UntrapFoot["Untrap their left foot"]
+UntrapFoot --> RollBack["Roll back in opposite direction (right)"]
+
+RollBack --> TrapWithHead["Trap their crossface arm with your head"]
+TrapWithHead --> FinishBridge["Complete bridge & roll"]
+</div>
+
 
 **Misdirectional bridge left**
 1. Get inside position with your arm, and trap their foot with your foot (same way as always)
@@ -184,6 +236,44 @@ least you will have relieved the crossface pressure.
    </figure>
 </div>
 
+### Putting it all together
+
+<div class="mermaid">
+graph TD
+  Start["Start Bridging Escape"]
+
+Start --> Setup["Setup: 4-finger grip, grab luff, trap ankle"]
+Setup --> AttemptRoll["Bridge & Roll Towards Trapped Side"]
+
+AttemptRoll --> ResponseCheck{"Does Opponent Respond?"}
+
+ResponseCheck --> ButtShift["They shift butt away"]
+ButtShift --> DontBridge["Don't bridge — risk of giving back"]
+DontBridge --> ButtShiftSuccess["Turn into guard recovery (butterfly)"]
+
+ResponseCheck --> BaseOut["They base out with hand"]
+BaseOut --> CrossCenter{"Arm crosses center line?"}
+CrossCenter -->|Yes| PreventRoll["Can't roll — isolate posting arm"]
+CrossCenter -->|No| ProceedRoll["Bridge & Roll into Guard"]
+
+ResponseCheck --> WeightShift["They shift weight away"]
+WeightShift --> Bait["Bait sit-out (skip ankle trap)"]
+Bait --> Knee1["Insert first knee"]
+Knee1 --> Knee2["Insert second knee"]
+Knee2 --> RecoverButterfly["Recover to Butterfly Guard"]
+
+PreventRoll --> IsolateArm["Underhook arm & clamp"]
+IsolateArm --> KeepSleeve["Maintain sleeve grip"]
+KeepSleeve --> GrabBack["Grab back"]
+GrabBack --> RollOpposite["Roll opposite to guard"]
+
+WeightShift --> ShortBridge["Short bridge to bait"]
+ShortBridge --> LapelGrip["Grab lapel behind neck"]
+LapelGrip --> PullHead["Pull head toward rolling side"]
+PullHead --> TrapArm["Trap arm with elbow"]
+TrapArm --> FinalRoll["Bridge & Roll Over"]
+</div>
+
 ---
 
 ## Elbow Escape
@@ -198,13 +288,6 @@ There are two main types of elbow escape:
   - [Knee-based](#knee-based)
     - generally better for static situations where the opp. has already mounted you.
     - generally better for when their knees are active
-
-```mermaid
-graph TD
-  A[Start] --> B{Decision}
-  B -->|Yes| C[Go]
-  B -->|No| D[Stop]
-```
 
 ### The common setup:
 1. Break their posture
@@ -246,15 +329,28 @@ graph TD
       - If they are extremely tight with the knee and dont provide the space to slide it out then shrimp out one more 
         time to create the space
 
-### Using the ankle-based method
-The ankle-based method is best used while the opp. is moving from side control into mount
+### When to actually use the ankle-based method
+Due to the nature of the ankle-based method being shut down easily by the foot-battle, the best scenario to use 
+this method is when the opponent is in side control and they are actively transitioning to mount. There are two main 
+ways they will do this, tight (knee-slide) and loose (step-over).
 
-#### When they knee slide from side control
+<div class="photoList">
+  <figure>   
+    <img src="{{ site.pin_escapes_images }}/side_control_knee_slide_to_mount.png">
+    <figcaption>1. Knee-slide to mount</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ site.pin_escapes_images }}/side_control_step_over_to_mount.png">
+    <figcaption>2. Step-over to mount</figcaption>
+  </figure>
+</div>
+
+#### When they knee slide from side control (tight)
 When the opponent is knee-sliding from side control, open up your hips, turn away from them, and let them slide across. 
 This will cause their ankle to naturally fall into the gap leaving it free to be captured and the ankle based method 
 may begin.
 
-#### When they step over from side control [TODO]
+#### When they step over from side control (loose)
 1. TODO 
 2. TODO
 3. TODO
@@ -283,6 +379,17 @@ using the knee-based method.
 7. Recover butterfly guard
    1. Once the first knee is in you can roll to the center to flatten your back which should shift their weight with you (4).
    2. From here you should have enough space to bring other knee and recover butterfly guard.
+
+<div class="mermaid">
+graph LR
+  A[Off-center their balance] --> B[Bridge (1): Force them to post on hand and knee<br>(Partial bridge only — no leg cross)]
+  B --> C[Switch both hands to their knee (2.5)]
+  C --> D[Rising shrimp to create space (2)]
+  D --> E[Insert your knee under their leg (3)]
+  E --> F[Roll to center to flatten back and shift their weight (4)]
+  F --> G[Recover butterfly guard]
+</div>
+
 
 <div class="photoList">
   <figure>   
