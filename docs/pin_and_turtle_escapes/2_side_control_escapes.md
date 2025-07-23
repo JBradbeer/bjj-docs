@@ -2,8 +2,6 @@
 
 # Side Control Escapes
 
-{:TOC}
-
 Side control is the single most dominant position for control in BJJ from a beginner all the way up to an advanced 
 level. 
 
@@ -174,17 +172,51 @@ There are two situations here:
 - The opponent is transitioning into a sit out
 - The opponent has locked in a sit out
 
-### Escaping while the opponent is transitioning
+### Escaping Kuzure while the opponent is transitioning
 If the opponent is in side control and transitions from a crossface to grabbing your elbow, it is a dead giveaway 
 that they are looking to switch to some form of kesa. Your instinct when this happens should be to immediatly get 
 your elbow to the mat as quickly as possible
 
 **Steps to escape:**
 1. Recognizing its happening
-   1. If you
+   1. If they are in side control and start grabbing at your elbow / tricep, it's pretty clear what they are going for
 2. Get your elbow down to the mat
-3. Cross face
+3. Cross face to create space
+   1. One thing about Kuzure is it creates space between you and your opponent's heads, making it easy to insert a 
+      cross-face and begin creating space
 4. Shrimp until you have space to insert the knee
+   1. This creates your traditional "V" frame talked about in the elbow escape. Follow the tips discussed above to 
+      make this successful
+5. Extend your body and slide your legs through
+   1. Because their body-weight is now on your frames instead of on you, they have no way of preventing you from 
+      extending your legs and transitioning to triangle, closed guard, etc.
+
+<div class="photoList">
+   <figure>
+      <video autoplay muted loop>
+         <source src="{{ site.pin_escapes_images }}/kuzure_kesa_anticipation_elbow_to_mat.mp4" type="video/mp4">
+      </video>
+      <figcaption>Recognize its happening and get your elbow to the mat</figcaption>
+   </figure>
+   <figure>
+      <video autoplay muted loop>
+         <source src="{{ site.pin_escapes_images }}/kuzure_kesa_anticipation_crossface.mp4" type="video/mp4">
+      </video>
+      <figcaption>Use the crossface to make space</figcaption>
+   </figure>
+   <figure>
+      <video autoplay muted loop>
+         <source src="{{ site.pin_escapes_images }}/kuzure_kesa_anticipation_knee_insert.mp4" type="video/mp4">
+      </video>
+      <figcaption>Shrimp until you have room to insert your knee</figcaption>
+   </figure>
+   <figure>
+      <video autoplay muted loop>
+         <source src="{{ site.pin_escapes_images }}/kuzure_kesa_escape_extend.mp4" type="video/mp4">
+      </video>
+      <figcaption>Extend your body and finish the move</figcaption>
+   </figure>
+</div>
 
 ### Escaping a locked in kesa gatame
 

@@ -7,11 +7,12 @@
     margin: 16px 0;
 }
 
+.photoList video,
 .photoList figure {
     margin: 0;
     width: 300px;
 }
-
+.photoList video,
 .photoList img {
     height: 169px;
     width: 300px;

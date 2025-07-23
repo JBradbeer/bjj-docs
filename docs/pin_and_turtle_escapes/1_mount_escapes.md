@@ -326,13 +326,14 @@ There are two main types of elbow escape:
    2. You should have enough space to recover a butterfly with right knee
    3. Straighten your posture so that your body is parallel to theirs, this should provide the space needed to 
       switch from butterfly to full guard
-      - If they are extremely tight with the knee and dont provide the space to slide it out then shrimp out one more 
+      - If they are extremely tight with the knee and don't provide the space to slide it out then shrimp out one more 
         time to create the space
 
 ### When to actually use the ankle-based method
-Due to the nature of the ankle-based method being shut down easily by the foot-battle, the best scenario to use 
-this method is when the opponent is in side control and they are actively transitioning to mount. There are two main 
-ways they will do this, tight (knee-slide) and loose (step-over).
+Due to the nature of the ankle-based method being shut down easily by the [foot-battle](#the-foot-battle), **the best 
+scenario to 
+use this method is when the opponent is in side control and they are actively transitioning to mount**. There are two 
+main ways they will do this, tight (knee-slide) and loose (step-over).
 
 <div class="photoList">
   <figure>   
