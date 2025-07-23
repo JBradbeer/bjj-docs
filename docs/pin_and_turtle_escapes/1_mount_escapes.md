@@ -329,25 +329,54 @@ There are two main types of elbow escape:
       - If they are extremely tight with the knee and dont provide the space to slide it out then shrimp out one more 
         time to create the space
 
-### Using the ankle-based method
-The ankle-based method is best used while the opp. is moving from side control into mount
+### When to actually use the ankle-based method
+Due to the nature of the ankle-based method being shut down easily by the foot-battle, the best scenario to use 
+this method is when the opponent is in side control and they are actively transitioning to mount. There are two main 
+ways they will do this, tight (knee-slide) and loose (step-over).
 
-#### When they knee slide from side control
+<div class="photoList">
+  <figure>   
+    <img src="{{ site.pin_escapes_images }}/side_control_knee_slide_to_mount.png">
+    <figcaption>1. Knee-slide to mount</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ site.pin_escapes_images }}/side_control_step_over_to_mount.png">
+    <figcaption>2. Step-over to mount</figcaption>
+  </figure>
+</div>
+
+#### When they knee slide from side control (Tight)
 When the opponent is knee-sliding from side control, open up your hips, turn away from them, and let them slide across. 
 This will cause their ankle to naturally fall into the gap leaving it free to be captured and the ankle based method 
-may begin.
+may begin. To make this even more effective, as they bring their knee across, block it with an elbow frame so that 
+their foot is encouraged to fall in the gap.
 
-#### When they step over from side control [TODO]
-1. TODO 
-2. TODO
-3. TODO
+<div class="photoList">
+  <figure>   
+    <img src="{{ site.pin_escapes_images }}/side_control_knee_slide_to_mount_counter.png">
+    <figcaption>Open legs as they knee slide</figcaption>
+  </figure>
+</div>
+
+#### When they step over from side control (Loose)
+When the opponent is stepping over from side control there weight will be heavy on the leg that is not stepping over. 
+However, as they progress further their weight distribution will change. As the stepping leg 
+touches the ground and they begin to rotate towards you to complete the mount, there will be an opportunity to slide 
+your knee under their non-stepping leg and begin the ankle approach.
+
+<div class="photoList">
+  <figure>   
+    <img src="{{ site.pin_escapes_images }}/side_control_step_over_to_mount_counter.png">
+    <figcaption>Attack back foot as they step over</figcaption>
+  </figure>
+</div>
 
 
 ### Troubleshooting the ankle-based method
 #### If They Tuck Their Feet Below
 Can try and push on their feet with your feet to attempt to separate and un-tuck their feet to use ankle-based method 
 elbow. However, any good opponent is not going to give you their feet easily. In this situation you should switch to 
-using the knee-based method.
+using the [knee-based method](#the-knee-based-method).
 
 ----
 
